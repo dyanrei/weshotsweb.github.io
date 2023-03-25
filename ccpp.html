@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+
+}
+.topnav input[type=password] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+}
+
+.topnav button {
+  float: right;
+  margin-top: 8px; 
+  margin-right: 3px;
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: grey;
+}
+  .col-md-6 p{
+    margin: 0;
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title> 
+            weSHOTS
+        </title> 
+        <link rel="icon" href ="newLogo.png" type ="image/x-icon"> 
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="newLogo.png" style="height: 30px;width: 30px; margin-top: 10px;">
+                <a class="navbar-brand" href="about.html" style="font-size: 25px;">weSHOTS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="font-size: 16px;">
+                    <li>
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+                    </li>
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+                    </li>
+<li>
+    <div class="topnav">
+        <form action="undercons.html" class="form-inline"><h7>
+         <input type="text" placeholder="Username" name="username" class="form-control" id="email">
+         <input type="password" placeholder="Password" name="psw" class="form-control" id="pwd">&nbsp
+         <button class="btn btn-default">Sign up</button>
+         <button class="btn btn-default">Login</button>
+     </h7>
+    </form>
+  </div>
+</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">C and C++
+                    <small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="portfoliosoftlearn.html">Learn Software</a>
+                    </li>
+                    <li class="active">C and C++</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">C and C++ Overview</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">C is middle-level programming language which was developed at Bell Lab in 1972 by Dennis Ritchie. C language combines the features of Low level as well as High-level Language. Hence its considered a middle-level Language.</p>
+                                <p align="justify" style="text-indent: 30px;">
+                                On the other hand, C++ is a computer programming language that contains the feature of C programming language as well as Simula67( a first object Oriented language). C++ introduced the concept of Class and Objects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">What is C programming language used for?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                   It is machine-independent, structured programming language which is used extensively in various applications. C was the basics language to write everything from operating systems (Windows and many others) to complex programs like the Oracle database, Git, Python interpreter and more.
+                            </div>
+                        </div>
+                    
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">What languages are written in C?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">Microsoft's Windows kernel is developed mostly in C, with some parts in assembly language. For decades, the world's most used operating system, with about 90 percent of the market share, has been powered by a kernel written in C.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Is C++ a high level programming language?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">C++ is a high-level programming language developed by Bjarne Stroustrup at Bell Labs beginning in 1979.
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">What is C++ programming language used for?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">C++ allows procedural programming for intensive functions of CPU and to provide control over hardware, and this language is very fast because of which it is widely used in developing different games or in gaming engines. C++ mainly used in developing the suites of a game tool.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Which is better, Python or C++?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">C++ has more syntax rules and other programming conventions, while Python aims to imitate the regular English language. When it comes to their use cases, Python is the leading language for machine learning and data analysis, and C++ is the best option for game development and large systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Is C++ better than C?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">C++ is certainly a larger language than C, and C++ provides direct support for the object-oriented paradigm. It takes longer to learn C++ than to learn C. C is better for some things, and C++ is better for other things. It depends what you need to do, and what programming paradigm you choose to use in a given project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Should I learn C before C++?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">There is no need to learn C before learning C++. They are different languages. It is a common misconception that C++ is in some way dependent on C and not a fully specified language on its own. Just because C++ shares a lot of the same syntax and a lot of the same semantics, does not mean you need to learn C first.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Is C++ harder to learn than Java?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">It all depends on practice, of course, but there's really a lot to learn in C++. However, in some aspects, C++ is actually a more simplistic language (it's more straightforward, it abstracts from the bare machine way less than Java). But that very thing is one of the reasons why learning C++ is harder.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer class="site-footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">About Us</h3>
+                <p align="justify" style="text-indent: 30px;">weSHOTS (Software and Hardware Operating Technology Services), a company that has a great standing in the technology-based sectors. A complete package from software to hardware services, all in one site!</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Quick Links</h3>
+                <ul class="list-group">
+                    <h4>
+                <li class="list-group-item">
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true" style="margin-left: 35%;"></i> About</a>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true" style="margin-left: 35%;"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true" style="margin-left: 35%;"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true" style="margin-left: 35%;"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>   
+                  <li class="list-group-item">
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true" style="margin-left: 35%;"></i> Contact</a>
+                    </li>
+                    </h4>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Follow Us</h3>
+                <a href="#" class="fa fa-2x fa-facebook-official" style="margin-left: 35%;"></a>
+                <a href="#" class="fa fa-2x fa-twitter-square"></a>
+                <a href="#" class="fa fa-2x fa-instagram"></a>
+                <a href="#" class="fa fa-2x fa-linkedin-square"></a>
+
+                <h3 style="text-align: center;">Contact Details</h3>
+                <p style="text-align: center;">
+                    436 Barangka Drive,<br>Barangka District, Mandaluyong, NCR<br>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p style="margin-left: 15%;"><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">weshotscompany@biz.com</a>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

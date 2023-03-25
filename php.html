@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+
+}
+.topnav input[type=password] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+}
+
+.topnav button {
+  float: right;
+  margin-top: 8px; 
+  margin-right: 3px;
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: grey;
+}
+  .col-md-6 p{
+    margin: 0;
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title> 
+            weSHOTS
+        </title> 
+        <link rel="icon" href ="newLogo.png" type ="image/x-icon"> 
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="newLogo.png" style="height: 30px;width: 30px; margin-top: 10px;">
+                <a class="navbar-brand" href="about.html" style="font-size: 25px;">weSHOTS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="font-size: 16px;">
+                    <li>
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+                    </li>
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+                    </li>
+<li>
+    <div class="topnav">
+        <form action="undercons.html" class="form-inline"><h7>
+         <input type="text" placeholder="Username" name="username" class="form-control" id="email">
+         <input type="password" placeholder="Password" name="psw" class="form-control" id="pwd">&nbsp
+         <button class="btn btn-default">Sign up</button>
+         <button class="btn btn-default">Login</button>
+     </h7>
+    </form>
+  </div>
+</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">PHP
+                    <small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="portfoliosoftlearn.html">Learn Software</a>
+                    </li>
+                    <li class="active">PHP</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">PHP Overview</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">PHP is a popular general-purpose scripting language that is especially suited to web development. It was originally created by Rasmus Lerdorf in 1994; the PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.</p>
+                                <p align="justify" style="text-indent: 30px;">PHP code may be executed with a command line interface (CLI), embedded into HTML code, or used in combination with various web template systems, web content management systems, and web frameworks. PHP code is usually processed by a PHP interpreter implemented as a module in a web server or as a Common Gateway Interface (CGI) executable. The web server outputs the results of the interpreted and executed PHP code, which may be any type of data, such as generated HTML code or binary image data. PHP can be used for many programming tasks outside of the web context, such as standalone graphical applications and robotic drone control.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">What is PHP and why it is used?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                   PHP is a server side scripting language. that is used to develop Static websites or Dynamic websites or Web applications. PHP stands for Hypertext Pre-processor, that earlier stood for Personal Home Pages. PHP scripts can only be interpreted on a server that has PHP installed.</p>
+                            </div>
+                        </div>
+                        
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">What are the advantages of PHP?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">this scripting language offers a lot of resources, such as commands, functions and codes, which can easily be rewritten and used without incurring any cost. The ease of use, easy integration, cost efficiency and easy access makes PHP one of the most popular server-side programming languages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How do I start PHP?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">In order to install PHP, MySQL, PHPMyAdmin and Apache in a single attempt, XAMPP should be installed. Scroll over to XAMPP for Windows and download should begin shortly. Click the .exe file to start the installation procedure. Select the components which you want to install and click “Next”.
+                                </p>
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Why PHP is widely used?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">PHP is used for banking, research, e-commerce, social media, etc. In spite of having some downsides, it is the most widely used programming languages for websites, with more than 81.6 percent websites being constructed upon the string foundation of PHP. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">What are the drawbacks of PHP?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;"> Disadvantages of PHP <br><br>
+                                    <ul>
+                                        <li>It is not that secure because of its open-source, as the source code can be easily available.</li>
+                                        <li>It is not suitable for large content-based web applications.</li>
+                                        <li>It has a weak type, which may lead to incorrect data and information to the user.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">What Can PHP Do?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;"><ul>
+                                        <li>PHP can generate dynamic page content</li>
+                                        <li>PHP can create, open, read, write, delete, and close files on the server.</li>
+                                        <li>PHP can collect form data</li>
+                                        <li>PHP can send and receive cookies</li>
+                                        <li>PHP can add, delete, modify data in your database</li>
+                                        <li>PHP can be used to control user-access</li>
+                                        <li>PHP can encrypt data</li>
+                                    </ul></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Is PHP difficult to learn?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">In general, PHP is regarded as an easy programming language to master for people just starting to learn to program. As with any programming language, PHP has rules of coding, abbreviations, and logarithms. Learning PHP will be easy or challenging depending on how you approach learning the language itself.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Does PHP have a future?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">Although there is a lot of discussion about the future of PHP, it is clear that PHP does have a future. It is by far the most used programming language for websites. PHP has been around for a while now and this is reflected in the code. ... However, since the introduction of PHP 7, a lot of things have improved.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer class="site-footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">About Us</h3>
+                <p align="justify" style="text-indent: 30px;">weSHOTS (Software and Hardware Operating Technology Services), a company that has a great standing in the technology-based sectors. A complete package from software to hardware services, all in one site!</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Quick Links</h3>
+                <ul class="list-group">
+                    <h4>
+                <li class="list-group-item">
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true" style="margin-left: 35%;"></i> About</a>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true" style="margin-left: 35%;"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true" style="margin-left: 35%;"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true" style="margin-left: 35%;"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>   
+                  <li class="list-group-item">
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true" style="margin-left: 35%;"></i> Contact</a>
+                    </li>
+                    </h4>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Follow Us</h3>
+                <a href="#" class="fa fa-2x fa-facebook-official" style="margin-left: 35%;"></a>
+                <a href="#" class="fa fa-2x fa-twitter-square"></a>
+                <a href="#" class="fa fa-2x fa-instagram"></a>
+                <a href="#" class="fa fa-2x fa-linkedin-square"></a>
+
+                <h3 style="text-align: center;">Contact Details</h3>
+                <p style="text-align: center;">
+                    436 Barangka Drive,<br>Barangka District, Mandaluyong, NCR<br>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p style="margin-left: 15%;"><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">weshotscompany@biz.com</a>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

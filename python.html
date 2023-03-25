@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+
+}
+.topnav input[type=password] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+}
+
+.topnav button {
+  float: right;
+  margin-top: 8px; 
+  margin-right: 3px;
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: grey;
+}
+  .col-md-6 p{
+    margin: 0;
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title> 
+            weSHOTS
+        </title> 
+        <link rel="icon" href ="newLogo.png" type ="image/x-icon"> 
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="newLogo.png" style="height: 30px;width: 30px; margin-top: 10px;">
+                <a class="navbar-brand" href="about.html" style="font-size: 25px;">weSHOTS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="font-size: 16px;">
+                    <li>
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+                    </li>
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+                    </li>
+<li>
+    <div class="topnav">
+        <form action="undercons.html" class="form-inline"><h7>
+         <input type="text" placeholder="Username" name="username" class="form-control" id="email">
+         <input type="password" placeholder="Password" name="psw" class="form-control" id="pwd">&nbsp
+         <button class="btn btn-default">Sign up</button>
+         <button class="btn btn-default">Login</button>
+     </h7>
+    </form>
+  </div>
+</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Python
+                    <small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="portfoliosoftlearn.html">Learn Software</a>
+                    </li>
+                    <li class="active">Python</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Python Overview</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">Python is used to create web and desktop applications, and some of the most popular web applications like Instagram, YouTube, Spotify all have been developed in Python. You can also develop the next big thing by using Python.</p>
+                            <p align="justify" style="text-indent: 30px;">
+                            Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">What are Python’s notable features?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                    <ul>
+                                        <li>It uses an elegant syntax which makes the programs you write easier to read.</li>
+                                        <li>Comes with a large standard library that supports many common programming tasks such as connecting to web servers, searching text with regular expressions, reading modifying files.</li>
+                                        <li>Easily extended by adding new modules implemented in a compiled language such as C or C++.</li>
+                                        <li>Python’s interactive mode makes it easy to test short snippets of code.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Comparing Python to other programming languages</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                    <ul>
+                                        <li>Python was designed for readability, and has some similarities to the English language with influence from mathematics.</li>
+                                        <li>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</li>
+                                        <li>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</li>
+                                    </ul>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Python indentation</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important. Python uses indentation to indicate a block of code.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">How do you put a comment in your program using Python?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">Comments start with “#”, and Python will render the rest of the line as a comment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">What are the built-in data types in Python?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;"><div class="row">
+            <div class="col-md-6"><ul><li>Text type:</li></ul></div><div class="col-md-6">str</div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Numeric types:  </li></ul></div><div class="col-md-6">int, float, complex</div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Sequence types:</li></ul></div><div class="col-md-6">list, tuple, range</div>
+        </div> 
+        <div class="row">
+         <div class="col-md-6"><ul><li>Mapping type: </li></ul></div><div class="col-md-6">dict</div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Set types:</li></ul></div><div class="col-md-6">set, frozenset</div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Boolean type: </li></ul></div><div class="col-md-6">bool</div>
+        </div>
+         <div class="row">
+         <div class="col-md-6"><ul><li>Binary types:</li></ul></div><div class="col-md-6">bytes, bytearray, memoryview</div>
+        </div> 
+        </p>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">What is Python 2 and Python 3?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">Python 2 made code development process easier than earlier versions. It implemented technical details of Python Enhancement Proposal (PEP). Python 2.7 (last version in 2.x ) is no longer under development and in 2020 will be discontinued.</p>
+                                <p align="justify" style="text-indent: 30px;">On December 2008, Python released version 3.0. This version was mainly released to fix problems which exist in Python 2. The nature of these change is such that Python 3 was incompatible with Python 2. It is backward incompatible Some features of Python 3 have been backported to Python 2.x versions to make the migration process easy in Python 3.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Python 2 vs. Python 3</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">
+                                    <ul>
+                                        <li>Python 3 syntax is simpler and easily understandable whereas Python 2 syntax is comparatively difficult to understand.</li>
+                                        <li>Python 3 default storing of strings is Unicode whereas Python 2 stores need to define Unicode string value with "u."</li>
+                                        <li>Python 3 value of variables never changes whereas in Python 2 value of the global variable will be changed while using it inside for-loop.</li>
+                                        <li>Python 3 exceptions should be enclosed in parenthesis while Python 2 exceptions should be enclosed in notations.</li>
+                                        <li>Python 3 rules of ordering comparisons are simplified whereas Python 2 rules of ordering comparison are complex.</li>
+                                        <li>Python 3 offers Range() function to perform iterations whereas, In Python 2, the xrange() is used for iterations.</li>
+                                    </ul>
+                               </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">9. What is a Python dictionary?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer class="site-footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">About Us</h3>
+                <p align="justify" style="text-indent: 30px;">weSHOTS (Software and Hardware Operating Technology Services), a company that has a great standing in the technology-based sectors. A complete package from software to hardware services, all in one site!</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Quick Links</h3>
+                <ul class="list-group">
+                    <h4>
+                <li class="list-group-item">
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true" style="margin-left: 35%;"></i> About</a>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true" style="margin-left: 35%;"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true" style="margin-left: 35%;"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true" style="margin-left: 35%;"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>   
+                  <li class="list-group-item">
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true" style="margin-left: 35%;"></i> Contact</a>
+                    </li>
+                    </h4>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Follow Us</h3>
+                <a href="#" class="fa fa-2x fa-facebook-official" style="margin-left: 35%;"></a>
+                <a href="#" class="fa fa-2x fa-twitter-square"></a>
+                <a href="#" class="fa fa-2x fa-instagram"></a>
+                <a href="#" class="fa fa-2x fa-linkedin-square"></a>
+
+                <h3 style="text-align: center;">Contact Details</h3>
+                <p style="text-align: center;">
+                    436 Barangka Drive,<br>Barangka District, Mandaluyong, NCR<br>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p style="margin-left: 15%;"><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">weshotscompany@biz.com</a>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

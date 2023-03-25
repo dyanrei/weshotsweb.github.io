@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+
+}
+.topnav input[type=password] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+}
+
+.topnav button {
+  float: right;
+  margin-top: 8px; 
+  margin-right: 3px;
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: grey;
+}
+  .col-md-6 p{
+    margin: 0;
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title> 
+            weSHOTS
+        </title> 
+        <link rel="icon" href ="newLogo.png" type ="image/x-icon"> 
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="newLogo.png" style="height: 30px;width: 30px; margin-top: 10px;">
+                <a class="navbar-brand" href="about.html" style="font-size: 25px;">weSHOTS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="font-size: 16px;">
+                    <li>
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+                    </li>
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+                    </li>
+<li>
+    <div class="topnav">
+        <form action="undercons.html" class="form-inline"><h7>
+         <input type="text" placeholder="Username" name="username" class="form-control" id="email">
+         <input type="password" placeholder="Password" name="psw" class="form-control" id="pwd">&nbsp
+         <button class="btn btn-default">Sign up</button>
+         <button class="btn btn-default">Login</button>
+     </h7>
+    </form>
+  </div>
+</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Motherboard
+                    <small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="portfoliohardlearn.html">Learn Hardware</a>
+                    </li>
+                    <li class="active">Motherboard</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Motherboard Overview</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">A motherboard provides connectivity between the hardware components of a computer, like the processor (CPU), memory (RAM), hard drive, and video card. There are multiple types of motherboards, designed to fit different types and sizes of computers.</p>
+                                <br>
+                                <p align="justify" style="text-indent: 30px;">Each type of motherboard is designed to work with specific types of processors and memory, so they are not capable of working with every processor and type of memory. However, hard drives are mostly universal and will work with the majority of motherboards, regardless of the type or brand.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Motherboard Components</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;"><strong>The motherboard components are:</strong></p>
+                                <div class="row">
+            <div class="col-md-6"><ul><li>Expansion slots (PCI Express, PCI, and AGP)</li></ul></div><div class="col-md-6"><ul><li>Heat sink</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>3-pin case fan connectors</li></ul></div><div class="col-md-6"><ul><li>4-pin (P4) power connector</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Back pane connectors</li></ul></div><div class="col-md-6"><ul><li>Inductor</li></ul></div>
+        </div> 
+        <div class="row">
+         <div class="col-md-6"><ul><li>Capacitor</li></ul></div><div class="col-md-6"><ul><li>CPU socket</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Northbridge</li></ul></div><div class="col-md-6"><ul><li>Screw hole</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Memory slot</li></ul></div><div class="col-md-6"><ul><li>Super I/O</li></ul></div>
+        </div>
+         <div class="row">
+         <div class="col-md-6"><ul><li>Floppy connection</li></ul></div><div class="col-md-6"><ul><li>ATA / IDE disk drive primary connection</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>24-pin ATX power supply connector</li></ul></div><div class="col-md-6"><ul><li>Serial ATA connections</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Coin cell battery (CMOS backup battery)</li></ul></div><div class="col-md-6"><ul><li>RAID</li></ul></div>
+        </div>
+        <div class="row">
+         <div class="col-md-6"><ul><li>System panel connectors</li></ul></div><div class="col-md-6"><ul><li>FWH</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>Southbridge</li></ul></div><div class="col-md-6"><ul><li>Serial port connector</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>USB headers</li></ul></div><div class="col-md-6"><ul><li>Jumpers</li></ul></div>
+        </div>
+        <div class="row">
+         <div class="col-md-6"><ul><li>Integrated circuit</li></ul></div><div class="col-md-6"><ul><li>1394 headers</li></ul></div>
+        </div> 
+        <div class="row">
+            <div class="col-md-6"><ul><li>SPDIF</li></ul></div><div class="col-md-6"><ul><li>CD-IN</li></ul></div>
+        </div>
+
+                            </div>
+                        </div>
+                    
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">How many connections, ports, or slots are on a motherboard?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">There is no set standard to how many connections, ports, or expansion slots are on a motherboard. The best method of determining how many connections, ports, or slots are available for your motherboard is to look up the specifications contained in its documentation. If you've lost or discarded your motherboard's documentation, you can often download a free PDF version from the manufacturer's website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How does a motherboard connect to a computer case?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">A computer motherboard connects to a desktop computer case using standouts. Once the motherboard is attached to the case, all the other devices connect either to the motherboard itself or an installed expansion card.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">What was the first motherboard?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">The first motherboard is considered to be one used in the IBM Personal Computer, released in 1981. At the time, IBM referred to it as a "planar" instead of a motherboard. The IBM Personal Computer and the motherboard inside it would set the standard for IBM-compatible computer hardware going forward.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Since there is a motherboard, is there a fatherboard?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">No, there is no such thing as a fatherboard when referring to a computer. However, there is such a thing as a daughterboard.</p>
+                                <br>
+                                <p align="justify" style="text-indent: 30px;">Daughterboard - alternatively referred to as a piggyback board and daughter card, a daughterboard is an expansion board that connects directly to the motherboard and gives added functionality (e.g., modem). Today, these boards are not found or used in desktop computers and have been replaced with ISA cards, PCI cards, and onboard options. However, some laptops still use these boards.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">Where did the motherboard get its name?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                The daughterboards we mentioned in the previous section are circuit boards that all plug into one larger central circuit board; a motherboard. The smaller boards can be thought of as the main board's "children," hence the name motherboard.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Is there a motherboard in a laptop, smartphone, and tablet?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">
+                                Yes, although the board is often referred to as a logic board and not a motherboard. The logic board is very similar to a motherboard and operates the same way. However, because of size requirements with most logic boards, the components like the processor and RAM (in tablets and smartphones) are soldered onto the board. Also, because many of these devices have no upgrade options, there are no slots or sockets that would support a replacement or upgrade of components like a traditional computer motherboard.</p>     
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">How motherboards work?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                A motherboard by itself is useless, but a computer has to have one to operate. The motherboard's main job is to hold the computer's microprocessor chip and let everything else connect to it. Everything that runs the computer or enhances its performance is either part of the motherboard or plugs into it via a slot or port.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer class="site-footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">About Us</h3>
+                <p align="justify" style="text-indent: 30px;">weSHOTS (Software and Hardware Operating Technology Services), a company that has a great standing in the technology-based sectors. A complete package from software to hardware services, all in one site!</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Quick Links</h3>
+                <ul class="list-group">
+                    <h4>
+                <li class="list-group-item">
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true" style="margin-left: 35%;"></i> About</a>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true" style="margin-left: 35%;"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true" style="margin-left: 35%;"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true" style="margin-left: 35%;"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>   
+                  <li class="list-group-item">
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true" style="margin-left: 35%;"></i> Contact</a>
+                    </li>
+                    </h4>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Follow Us</h3>
+                <a href="#" class="fa fa-2x fa-facebook-official" style="margin-left: 35%;"></a>
+                <a href="#" class="fa fa-2x fa-twitter-square"></a>
+                <a href="#" class="fa fa-2x fa-instagram"></a>
+                <a href="#" class="fa fa-2x fa-linkedin-square"></a>
+
+                <h3 style="text-align: center;">Contact Details</h3>
+                <p style="text-align: center;">
+                    436 Barangka Drive,<br>Barangka District, Mandaluyong, NCR<br>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p style="margin-left: 15%;"><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">weshotscompany@biz.com</a>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+
+}
+.topnav input[type=password] {
+  padding: 2px;
+  margin-top: 8px;
+  font-size: 15px;
+  border: none;
+  width:140px;
+}
+
+.topnav button {
+  float: right;
+  margin-top: 8px; 
+  margin-right: 3px;
+  background-color: #555;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: grey;
+}
+  .col-md-6 p{
+    margin: 0;
+  }
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .login-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title> 
+            weSHOTS
+        </title> 
+        <link rel="icon" href ="newLogo.png" type ="image/x-icon"> 
+	<meta name="description" content="A minimalist Bootstrap theme by StartBootstrap. Contains everything you need to get started building your website. All you have to do is change the text and images.">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="newLogo.png" style="height: 30px;width: 30px; margin-top: 10px;">
+                <a class="navbar-brand" href="about.html" style="font-size: 25px;">weSHOTS</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="font-size: 16px;">
+                    <li>
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
+                    </li>
+<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Pages <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="full-width.html">Full Width Page</a>
+                            </li>
+                            <li>
+                                <a href="sidebar.html">Sidebar Page</a>
+                            </li>
+                            <li>
+                                <a href="faq.html">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="404.html">404</a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">Pricing Table</a>
+                            </li>
+                        </ul>
+                    </li> -->
+                    <li>
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a>
+                    </li>
+<li>
+    <div class="topnav">
+        <form action="undercons.html" class="form-inline"><h7>
+         <input type="text" placeholder="Username" name="username" class="form-control" id="email">
+         <input type="password" placeholder="Password" name="psw" class="form-control" id="pwd">&nbsp
+         <button class="btn btn-default">Sign up</button>
+         <button class="btn btn-default">Login</button>
+     </h7>
+    </form>
+  </div>
+</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Computer Monitor
+                    <small></small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li><a href="portfoliohardlearn.html">Learn Hardware</a>
+                    </li>
+                    <li class="active">Computer Monitor</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Computer Monitor Overview</a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">Alternatively referred to as a VDT (video display terminal) and VDU (video display unit), a monitor is an output device that displays video images and text. A monitor is made up of circuitry, a screen, a power supply, buttons to adjust screen settings, and casing that holds all of these components.</p>
+
+                                <p align="justify" style="text-indent: 30px;">Like most early TVs, the first computer monitors were comprised of a CRT (cathode ray tube) and a fluorescent screen. Today, all monitors are created using flat-panel display technology, usually backlit with LEDs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">When was the first computer monitor invented?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">The first computer monitor was part of the Xerox Alto computer system, which was released on March 1, 1973.</p>
+                            </div>
+                        </div>
+                    
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">What are the different types of monitors?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                    There are essentially two types of monitors, with the second having two variations based on backlighting (CCFL vs. LED). The first (and oldest) is the CRT (cathode-ray tube) monitor, which was based on the same technology as early televisions. The second is the LCD (liquid-crystal display) monitor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Why is a monitor an output device?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFour" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">A traditional monitor is only used to display (output) information from a computer and provides no source of input. For this reason, a computer monitor is considered an output device.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">History of Computer Monitors</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">Early electronic computers were fitted with a panel of light bulbs where the state of each particular bulb would indicate the on/off state of a particular register bit inside the computer. This allowed the engineers operating the computer to monitor the internal state of the machine, so this panel of lights came to be known as the 'monitor'. As early monitors were only capable of displaying a very limited amount of information and were very transient, they were rarely considered for program output. Instead, a line printer was the primary output device, while the monitor was limited to keeping track of the program's operation.</p>
+
+                                <p align="justify" style="text-indent: 30px;">As technology developed engineers realized that the output of a CRT display was more flexible than a panel of light bulbs and eventually, by giving control of what was displayed in the program itself, the monitor itself became a powerful output device in its own right.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">What are Cathode ray tubes (CRT)?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSix" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">The first computer monitors used cathode ray tubes (CRTs). Prior to the advent of home computers in the late 1970s, it was common for a video display terminal (VDT) using a CRT to be physically integrated with a keyboard and other components of the system in a single large chassis. The display was monochrome and far less sharp and detailed than on a modern flat-panel monitor, necessitating the use of relatively large text and severely limiting the amount of information that could be displayed at one time. High-resolution CRT displays were developed for the specialized military, industrial and scientific applications but they were far too costly for general use.</p>
+
+                                <p align="justify" style="text-indent: 30px;">By the end of the 1980s color CRT monitors that could clearly display 1024 x 768 pixels were widely available and increasingly affordable. During the following decade, maximum display resolutions gradually increased and prices continued to fall. CRT technology remained dominant in the PC monitor market into the new millennium partly because it was cheaper to produce and offered to view angles close to 180 degrees. CRTs still offer some image quality advantages over LCDs but improvements to the latter have made them much less obvious. The dynamic range of early LCD panels was very poor, and although text and other motionless graphics were sharper than on a CRT, an LCD characteristic known as pixel lag caused moving graphics to appear noticeably smeared and blurry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">What is Liquid crystal display (LCD)?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseSeven" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">There are multiple technologies that have been used to implement liquid crystal displays (LCD). Throughout the 1990s, the primary use of LCD technology as computer monitors was in laptops where the lower power consumption, lighter weight, and smaller physical size of LCDs justified the higher price versus a CRT. Commonly, the same laptop would be offered with an assortment of display options at increasing price points: (active or passive) monochrome, passive color, or active matrix color (TFT). As volume and manufacturing capability have improved, the monochrome and passive color technologies were dropped from most product lines.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Computer Monitors display resolutions</a>
+                            </h4>
+                        </div>
+                        <div id="collapseEight" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                 <p align="justify" style="text-indent: 30px;">
+                                The resolution for computer monitors has increased over time. From 320x200 during the early 1980s, to 1024x768 during the late 1990s. Since 2009, the most commonly sold resolution for computer monitors is 1920x1080. Before 2013 top-end consumer LCD monitors were limited to 2560x1600 at 30 in (76 cm), excluding Apple products and CRT monitors. Apple introduced 2880x1800 with Retina MacBook Pro at 15.4 in (39 cm) on June 12, 2012, and introduced a 5120x2880 Retina iMac at 27 in (69 cm) on October 16, 2014. By 2015 most major display manufacturers had released 3840x2160 resolution displays.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">Best computer monitors in 2020</a>
+                            </h4>
+                        </div>
+                        <div id="collapseNine" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p align="justify" style="text-indent: 30px;">
+                                    <ul>
+                                        <li>BenQ PD3200U</li>
+                                        <li>AOC Agon AG352UCG6 Black Edition</li>
+                                        <li>Asus ROG Swift PG27UQ</li>
+                                        <li>Acer Predator X34</li>
+                                        <li>Asus Designo Curve MX38VC</li>
+                                        <li>Dell UltraSharp UP3218K</li>
+                                        <li>BenQ EX3203R</li>
+                                        <li>Alienware 25</li>
+                                        <li>BenQ Zowie XL2540</li>
+                                        <li>MSI Optix MPG341CQR</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.panel-group -->
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer class="site-footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">About Us</h3>
+                <p align="justify" style="text-indent: 30px;">weSHOTS (Software and Hardware Operating Technology Services), a company that has a great standing in the technology-based sectors. A complete package from software to hardware services, all in one site!</p>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Quick Links</h3>
+                <ul class="list-group">
+                    <h4>
+                <li class="list-group-item">
+                        <a href="about.html"><i class="fa fa-info-circle" aria-hidden="true" style="margin-left: 35%;"></i> About</a>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-wrench" aria-hidden="true" style="margin-left: 35%;"></i> Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a href="portfolio-1-col.html">Hardware Services</a>
+                            </li>
+                            <li>
+                                <a href="sersoftware.html">Software Services</a>
+                            </li>
+                        </ul>
+                    </li>
+                  <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-laptop" aria-hidden="true" style="margin-left: 35%;"></i> Seminars<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfolio-2-col.html">Hardware Seminars</a>
+                            </li>
+                            <li>
+                                <a href="portfolio2-software.html">Software Seminars</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil" aria-hidden="true" style="margin-left: 35%;"></i> Learn<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="portfoliohardlearn.html">Learn Hardware</a>
+                            </li>
+                            <li>
+                                <a href="portfoliosoftlearn.html">Learn Software</a>
+                            </li>
+                        </ul>
+                    </li>   
+                  <li class="list-group-item">
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true" style="margin-left: 35%;"></i> Contact</a>
+                    </li>
+                    </h4>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-heading mb-4" style="text-align: center;">Follow Us</h3>
+                <a href="#" class="fa fa-2x fa-facebook-official" style="margin-left: 35%;"></a>
+                <a href="#" class="fa fa-2x fa-twitter-square"></a>
+                <a href="#" class="fa fa-2x fa-instagram"></a>
+                <a href="#" class="fa fa-2x fa-linkedin-square"></a>
+
+                <h3 style="text-align: center;">Contact Details</h3>
+                <p style="text-align: center;">
+                    436 Barangka Drive,<br>Barangka District, Mandaluyong, NCR<br>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p style="margin-left: 15%;"><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">weshotscompany@biz.com</a>
+                </p>
+                <p style="margin-left: 15%;"><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
